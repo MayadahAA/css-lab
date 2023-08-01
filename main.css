@@ -11,8 +11,8 @@ ul{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #0e0e0e;
 }
-
 .navbrand{
     font-size: 1.7rem;
 }
@@ -39,6 +39,28 @@ button>b{
     text-align:center ;
     font-size: 5em;
 }
+.cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .pr{
+ font-size: 1em;
+ text-align: center;
+}
+.gallry{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.gallry img{
+    width: 100%;
+}
+.gallry h6{
+    text-align: center;
+}
+.card-1{
 
 }
