@@ -50,12 +50,13 @@ button > b {
   text-align: center !important;
 }
 .gallry {
-  display: flex;
-  margin: 10%;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-between;
-  justify-content: space-between;
+    display: flex;
+    margin: 10%;
+    flex-wrap: wrap;
+    gap: 61px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
 }
 .gallry img {
   width: 100%;
