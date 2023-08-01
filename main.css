@@ -53,10 +53,10 @@ button > b {
     display: flex;
     margin: 10%;
     flex-wrap: wrap;
-    gap: 61px;
+    gap: 5%;
     flex-direction: row;
     align-content: center;
-    justify-content: space-around;
+    justify-content: start;
 }
 .gallry img {
   width: 100%;
