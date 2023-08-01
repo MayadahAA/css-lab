@@ -30,8 +30,12 @@ ul.nav-items {
   gap: 3em;
 }
 .nav-button button {
-  width: 15vw;
-  height: 15vh;
+width: 10em;
+height: 3em;
+color: #0e0e0e;
+background-color: #fff;
+
+
 }
 button > b {
   font-size: 2em;
@@ -44,6 +48,7 @@ button > b {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 5em;
 }
 .pr {
   font-size: 1.5em;
@@ -103,12 +108,19 @@ button > b {
     color: #0e0e0e;
 }
 .img-txt{
-    
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 .demo-imgs img{
     width: 30vw;
     
 }
+.txt3{
+    margin: 3% 0;
+    padding: 30px 0;
+}
+
 .demo-imgs{
     display: flex;
     flex-direction: row;
@@ -130,4 +142,23 @@ border-radius: 8px;
 .prr{
     margin-bottom: 3em;
     font-size: 1.3em;
+    padding: 10%;
+}
+button{
+    width: 10em;
+height: 3em;
+
+}
+.view{
+    color: #fff;
+    background-color: #0e0e0e;
+}
+
+.last-txt{
+    font-size: 1.3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 3em;
+
 }
